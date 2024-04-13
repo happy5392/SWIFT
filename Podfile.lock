@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (4.7.0)
+  - GoogleToolboxForMac/DebugUtils (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - GoogleToolboxForMac/Defines (2.3.2)
+  - OAuthSwift (2.2.0)
+  - SDWebImage (3.8.3):
+    - SDWebImage/Core (= 3.8.3)
+  - SDWebImage/Core (3.8.3)
+
+DEPENDENCIES:
+  - Alamofire (= 4.7)
+  - GoogleToolboxForMac/DebugUtils (= 2.3.2)
+  - OAuthSwift (from `https://github.com/OAuthSwift/OAuthSwift.git`, branch `2.2.0`)
+  - SDWebImage (= 3.8.3)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GoogleToolboxForMac
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  OAuthSwift:
+    :branch: 2.2.0
+    :git: https://github.com/OAuthSwift/OAuthSwift.git
+
+CHECKOUT OPTIONS:
+  OAuthSwift:
+    :commit: d85964b96dbce94df961f28b996187c835089903
+    :git: https://github.com/OAuthSwift/OAuthSwift.git
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  GoogleToolboxForMac: 8bef7c7c5cf7291c687cf5354f39f9db6399ad34
+  OAuthSwift: 75efbb5bd9a4b2b71a37bd7e986bf3f55ddd54c6
+  SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
+
+PODFILE CHECKSUM: f7dd35ea6a5fdc97a9ba9bce4381723bc6b3b98b
+
+COCOAPODS: 1.14.3
