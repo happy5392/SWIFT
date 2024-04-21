@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_cocopod_integration_test_cocopod_integration_testTests : NSObject
+@end
+@implementation PodsDummy_Pods_cocopod_integration_test_cocopod_integration_testTests
+@end

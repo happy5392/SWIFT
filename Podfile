@@ -10,6 +10,7 @@ target 'cocopod_integration_test' do
   pod 'SDWebImage' , '3.8.3'
   pod 'GoogleToolboxForMac/DebugUtils' , '2.3.2'
   pod 'OAuthSwift', :git => "https://github.com/OAuthSwift/OAuthSwift.git", :branch => "2.2.0"
+  pod 'PubNubSwift', '4.0.0'
 
   target 'cocopod_integration_testTests' do
     # Pods for testing
