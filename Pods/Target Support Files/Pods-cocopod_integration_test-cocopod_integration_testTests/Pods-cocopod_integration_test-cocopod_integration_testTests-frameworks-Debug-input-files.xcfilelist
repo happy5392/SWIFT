@@ -1,5 +1,0 @@
-${PODS_ROOT}/Target Support Files/Pods-cocopod_integration_test-cocopod_integration_testTests/Pods-cocopod_integration_test-cocopod_integration_testTests-frameworks.sh
-${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
-${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework
-${BUILT_PRODUCTS_DIR}/PubNubSwift/PubNub.framework
-${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
