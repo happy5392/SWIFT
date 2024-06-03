@@ -6,7 +6,6 @@ target 'cocopod_integration_test' do
   use_frameworks!
 
   # Pods for cocopod_integration_test
-  pod 'Alamofire', '4.7'
   pod 'SDWebImage' , '3.8.3'
   pod 'GoogleToolboxForMac/DebugUtils' , '2.3.2'
   pod 'OAuthSwift', :git => "https://github.com/OAuthSwift/OAuthSwift.git", :branch => "2.2.0"
