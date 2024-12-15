@@ -1,18 +1,17 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
 
-target 'cocopod_integration_test' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+platform :ios, '11.0'
+use_frameworks!
 
-  # Pods for cocopod_integration_test
-  pod 'SDWebImage' , '3.8.3'
-  pod 'GoogleToolboxForMac/DebugUtils' , '2.3.2'
-  pod 'OAuthSwift', :git => "https://github.com/OAuthSwift/OAuthSwift.git", :branch => "2.2.0"
-  pod 'PubNubSwift', '4.0.0'
-
-  target 'cocopod_integration_testTests' do
-    # Pods for testing
-  end
-
+target 'VulnerableSwiftRepo' do
+  pod 'AFNetworking', '~> 3.0'
+  pod 'Alamofire', '~> 4.0'
+  pod 'Firebase', '5.20.0'
+  pod 'SDWebImage', '4.4.0'
+  pod 'Realm', '~> 3.0'
+  pod 'SwiftyJSON', '4.0.0'
+  pod 'ObjectMapper', '3.4.0'
+  pod 'Kingfisher', '4.10.0'
+  pod 'CryptoSwift', '0.9.0'
+  pod 'SnapKit', '3.2.0'
+  # Additional dependencies can be added here
 end
